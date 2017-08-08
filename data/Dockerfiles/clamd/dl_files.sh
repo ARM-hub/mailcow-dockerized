@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p /var/lib/clamav/
+
 declare -a DB_MIRRORS=(
   "switch.clamav.net"
   "clamavdb.heanet.ie"
